@@ -34,9 +34,9 @@ describe('Game', () => {
     })
 
     Game > Game > Starts the game with random player
-        expect(received).toBe(expected) 
-              Expected: "Nate"
-              Received: "Bananas"
+    expect(received).toBe(expected) 
+              expected: "Nate"
+              received: "Bananas"
         
     it('Starts the game with a random player', async () => {
       Math.random = () => 0.4
